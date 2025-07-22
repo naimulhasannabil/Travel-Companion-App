@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
+import Adventures from './pages/Adventures';
 import Login from './pages/Login';
 import Register from './pages/Register';
 
