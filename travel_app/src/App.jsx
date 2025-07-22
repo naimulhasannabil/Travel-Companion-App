@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import './App.css'
+import Home from './pages/Home';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('login');
+  const [currentPage, setCurrentPage] = useState('login'); // Start with login
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   const handleLogin = () => {
