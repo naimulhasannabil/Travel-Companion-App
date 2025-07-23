@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -7,6 +7,7 @@ import Adventures from './pages/Adventures';
 import Contact from './pages/Contact';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import TravelDashboard from './components/TravelDashboard';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('login'); // Start with login
@@ -73,9 +74,8 @@ function App() {
 
   // Show complete website with navbar and footer for other authenticated pages
   return (
-    <div className='min-h-screen'>
-      <Navbar currentPage={currentPage} 
-      setCurrentPage={setCurrentPage} onLogout={handleLogout} />
+    <div className="min-h-screen">
+      <Navbar currentPage={currentPage} setCurrentPage={setCurrentPage} onLogout={handleLogout} />
       {renderPage()}
       <Footer />
     </div>
