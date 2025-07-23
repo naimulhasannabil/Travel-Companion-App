@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Eye, EyeOff, Mail, Lock, User, Phone, ArrowRight, Globe } from "lucide-react";
 
 const Register = ({ setCurrentPage, onRegister }) => {
-    const [formData, setFromData] = useState({
+    const [formData, setFormData] = useState({
         firstName: '',
         lastName: '',
         email: '',

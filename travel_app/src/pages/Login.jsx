@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Eye, EyeOff, Mail, Lock, ArrowRight, Globe } from "lucide-react";
 
 const Login = ({ setCurrentPage, onLogin }) => {
-    const [fromData, setFromData] = useState({
+    const [formData, setFormData] = useState({
         email: '',
         password: '',
         rememberMe: false

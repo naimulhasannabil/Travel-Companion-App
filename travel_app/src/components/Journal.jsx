@@ -35,7 +35,7 @@ const Journal = () => {
         }
     ]);
 
-    const [showAddFrom, setShowAddForm] = useState(false);
+    const [showAddForm, setShowAddForm] = useState(false);
     const [editingEntry, setEditingEntry] = useState(null);
     const [newEntry, setNewEntry] = useState({
        title: '',
