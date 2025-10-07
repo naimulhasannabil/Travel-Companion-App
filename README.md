@@ -38,8 +38,7 @@ A modern, full-featured travel website that combines beautiful marketing pages w
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/travel_app.git
-   cd travel_app
+   git clone <repository-url>
    ```
 
 2. **Install dependencies**
